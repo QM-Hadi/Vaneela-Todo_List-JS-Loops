@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops and Its Types</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            color: #fff;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overflow-x-auto m-5">
+        <div>
+            <h1 class="text-3xl text-center font-bold">Users Todo List with JavsScript Loops</h1>
+        </div>
+        <div id="Button" class="float-right mb-5"></div>
+        <table class="min-w-full table-auto border border-gray-300">
+          <thead>
+            <tr>
+              <th class="px-4 py-2  font-bold text-center border">ID</th>
+              <th class="px-4 py-2  font-bold text-center border">Name</th>
+              <th class="px-4 py-2  font-bold text-center border">Date</th>
+              <th class="px-4 py-2 font-bold text-center border">User Delete</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+      
+    <script src="loops.js"></script>
+</body>
+
+</html>

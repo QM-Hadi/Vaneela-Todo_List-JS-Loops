@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/925440650/photo/underwater-bubbles.webp?a=1&b=1&s=612x612&w=0&k=20&c=VYOE0v35U7UXlKsWSS9krUGCTNFmH898jXaOJTscdts=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures it stays fixed on scroll */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
