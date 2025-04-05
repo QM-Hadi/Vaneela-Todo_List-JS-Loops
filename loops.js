@@ -4,7 +4,7 @@ const button_container = document.getElementById("Button");
 const button = document.createElement("button");
 button.textContent = "Add Users";
 button.id = "add_User";
-button.className = "bg-blue-500 border mr-2 mt-5 mb-5 rounded-md text-center py-2 px-4 text-white";
+button.className = "bg-blue-500 border mr-2 mt-5 rounded-md text-center py-2 px-4 text-white";
 button_container.appendChild(button);
 
 // Create input and add button (initially hidden)
